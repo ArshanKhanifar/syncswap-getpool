@@ -1,0 +1,15 @@
+{
+  "name": "sample-python",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "solcjs syncswap.sol --abi -o compiled",
+    "start": "python main.py"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.8.21"
+  }
+}
